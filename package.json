@@ -1,0 +1,40 @@
+{
+  "_from": "zw-builder",
+  "_id": "zw-builder@1.0.9",
+  "_inBundle": false,
+  "_integrity": "sha512-Omn6x6Ckq8fpb5DHPgNlfWryCwoIlxi0GC5rrR5qOgHwAHCVEddRtD5yfyXiaEB/6POajDmBAsFGx7goZd8nKQ==",
+  "_location": "/zw-builder",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "zw-builder",
+    "name": "zw-builder",
+    "escapedName": "zw-builder",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmmirror.com/zw-builder/-/zw-builder-1.0.9.tgz",
+  "_shasum": "d2e80e2899769dc8052a755be790ae49c75e38ef",
+  "_spec": "zw-builder",
+  "_where": "D:\\ZW\\frontend-manage",
+  "bin": {
+    "zw-builder": "bin/index.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "xml2js": "^0.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:MilesPan/zw-builder.git"
+  },
+  "deprecated": false,
+  "description": "项目和dist项目需在同一文件夹内，并且项目名字得是原始的,理论上ec和manage都可以使用.",
+  "name": "zw-builder",
+  "version": "1.0.9"
+}
