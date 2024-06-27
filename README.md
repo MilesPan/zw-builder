@@ -1,3 +1,8 @@
+# 开发调试
+```shell
+npm link 
+npm unlink zw-builder -g
+```
 # 使用前提
 项目和dist项目需在同一文件夹内，并且项目名字得是原始的,理论上ec和manage都可以使用.
 
