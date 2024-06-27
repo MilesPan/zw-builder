@@ -36,5 +36,5 @@
   "deprecated": false,
   "description": "项目和dist项目需在同一文件夹内，并且项目名字得是原始的,理论上ec和manage都可以使用.",
   "name": "zw-builder",
-  "version": "1.0.11"
+  "version": "1.0.12"
 }
