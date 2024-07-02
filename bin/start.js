@@ -144,7 +144,7 @@ function start(needPush, isEnProduct) {
           );
           if (gitPushProgress.status === 0) {
             console.log(color.green("推送完成"));
-            console.log(color.green(`版本号: ${patch}分支`));
+            console.log(color.green(`版本号: ${patch}`));
           } else console.log(color.red("推送失败"));
         }
       } else {
