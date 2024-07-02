@@ -142,9 +142,10 @@ function start(needPush, isEnProduct) {
             "Git push process exited with code:",
             gitPushProgress.status
           );
-          if (gitPushProgress.status === 0)
+          if (gitPushProgress.status === 0) {
             console.log(color.green("推送完成"));
-          else console.log(color.red("推送失败"));
+            console.log(color.green(`版本号: ${patch}分支`));
+          } else console.log(color.red("推送失败"));
         }
       } else {
         console.log(color.red("拉取远端代码失败"));
